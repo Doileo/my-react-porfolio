@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore coverage reports from testing
+/coverage
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore environment-specific files (Modify as needed)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Ignore Node.js dependencies and Yarn Plug'n'Play (pnp) files
+/node_modules
+/.pnp
+.pnp.js
+
+# Ignore npm and Yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore reportWebVitals.js
+reportWebVitals.js
+
